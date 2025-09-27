@@ -120,12 +120,22 @@
   <section class="contact" id="contact">
     <h2>Contact</h2>
     <p>Ready to take your cycling to the next level? Let’s connect.</p>
-    <form>
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <form action="https://formspree.io/f/xeorelrg" method="POST">
+  <label>
+    Your Name:
+    <input type="text" name="name" required>
+  </label>
+  <label>
+    Your Email:
+    <input type="email" name="email" required>
+  </label>
+  <label>
+    Your Message:
+    <textarea name="message" required></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
+
     <p>Or email me directly: <a href="mailto:zoltan@crankcraftercoaching.com">zoltan@crankcraftercoaching.com</a></p>
   </section>
 
